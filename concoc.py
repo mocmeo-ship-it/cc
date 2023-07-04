@@ -193,4 +193,3 @@ if os.path.isfile(socks5_proxy_file):
             proxy = line.strip()
             if proxy:
                 send_requests(url, {'http': f'socks5://{proxy}', 'https': f'socks5://{proxy}'})
-``
