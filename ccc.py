@@ -8,7 +8,7 @@ import sys
 import os
 
 from pyppeteer import launch
-
+url = input("url: ")
 # Function to check if Cloudflare protection is present
 async def check_cloudflare(page):
     button = await page.querySelector('.big-button.pow-button')
