@@ -21,9 +21,9 @@ async def check_cloudflare(page):
 # Function to handle ddgCaptcha
 async def handle_ddg_captcha(page):
     # Code to handle ddgCaptcha
-
-captcha = 'true'
-precheck = 'true'
+    captcha = 'true'
+     
+    precheck = 'true'
 
 # Define headers for requests
 headers = {
